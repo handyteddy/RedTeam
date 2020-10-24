@@ -1,0 +1,85 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend-ht"
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # "light" or "dark"
+  defaultTheme = "dark"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 0
+  # Enable to show reading time in minutes for posts
+  showReadingTime = false
+
+[taxonomies]
+  blogs = "blogs"
+
+[languages]
+  [languages.en]
+    title = "The Title of Your Site Goes Here"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Menu"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+      logoText = "the logo of your site goes here"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "services"
+        name = "Services"
+        url = "/posts/services/"
+        pre = "jefferson-santos-9SoCnyQmkzI-unsplash.jpg"
+        post= "Quis aute dolore proident velit incididunt incididunt esse culpa Lorem in do ipsum."
+        weight = 10
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/posts/about/"
+        pre = "kaleb-tapp-J59wWPn09BE-unsplash.jpg"
+        post= "Quis aute dolore proident velit incididunt incididunt esse culpa Lorem in do ipsum."
+        weight = 50
+      [[languages.en.menu.main]]
+        identifier = "training"
+        name = "Training"
+        url = "/posts/training/"
+        pre = "kaur-kristjan-CpPF4W5PB1c-unsplash.jpg"
+        post = "Ex elit culpa elit cillum labore."
+        weight = 100
+      [[languages.en.menu.main]]
+        identifier = "tools"
+        name = "Tools"
+        url = "/tools/"
+        pre = "muhannad-ajjan-sL2BRR1cuvM-unsplash.jpg"
+        post = "Occaecat ipsum anim consectetur eiusmod do commodo proident exercitation nulla enim pariatur ullamco adipisicing laborum."
+        weight = 1000
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blogs"
+        url = "/blogs/"
+        pre = "pankaj-patel-u2Ru4QBXA5Q-unsplash.jpg"
+        post = "Fugiat cillum ea reprehenderit laborum ad quis eiusmod ullamco consequat."
+        weight = 10000
+      [[languages.en.menu.main]]
+        identifier = "vulnerabilities"
+        name = "Vulnerabilities"
+        url = "/vulnerabilities/"
+        pre = "paulius-dragunas-uw_NWjC1mBE-unsplash.jpg"
+        post = "Consectetur sit sint pariatur aute reprehenderit nisi ad id non excepteur."
+        weight = 100000

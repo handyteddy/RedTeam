@@ -1,0 +1,22 @@
+{{ define "main" }}
+<table class="vulnerabilities-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+      <th>Type</th>
+      <th>Platform</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range .Pages }}
+      <tr>
+        <th> {{ .Date.Format "2020-01-01" }} </th>
+        <th class="vulnerabilities-title-cell"> <a href="{{ .Permalink }}">{{ .Title }}</a> </th>
+        <th> {{ .Params.type }} </th>
+        <th> {{ .Params.platform }} </th>
+      </tr>
+    {{ end }}
+  </tbody>
+</table>
+{{ end }}

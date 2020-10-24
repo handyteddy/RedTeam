@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div>
+  <div class="handy-grid">
+    {{ $type := .Type }}
+      {{ range $key, $value := .Data.Terms.Alphabetical }}
+        {{ $name := .Name }}
+        {{ $count := .Count }}
+        {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
+          <div class="handy-card">
+            <a href="{{ .Permalink }}">
+              <div class="handy-card-image"><img src="../images/{{ .Params.image }}" alt="{{ .Name }}"></div>
+              <div class="handy-card-title">{{ .Name }}</div>
+              <div class="handy-card-description">{{ .Params.description }}</div>
+            </a>
+          </div>
+        {{ end }}
+      {{ end }}
+  </div>
+</div>
+{{ end }}

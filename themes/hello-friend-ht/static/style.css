@@ -1,0 +1,96 @@
+.header {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.header-child {
+  width: 100%;
+  max-width: 1024px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-left {
+}
+
+.menu-right {
+}
+
+.menu {
+  border-right: none;
+  margin: 0;
+  padding: 0;
+}
+
+.handy-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  max-width: 1024px;
+}
+
+.handy-card {
+  width: 46%;
+  margin: 1em;
+
+  color: #222222;
+  background-color: #fafafa;
+
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media (max-width: 700px) {
+  .handy-card {
+    width: 100%;
+  } 
+}
+
+.handy-card a {
+  text-decoration: none;
+}
+
+.handy-card-image {
+  max-height: 10rem;
+  overflow: hidden;
+}
+
+.handy-card-title {
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.handy-card-description {
+  margin: 10px;
+  text-align: left;
+}
+
+.vulnerabilities-table {
+  font-family: monospace;
+  font-size: 16px;
+
+  max-width: 1280px;
+  border: solid 1px black;
+
+  text-align: left;
+  table-layout: auto;
+}
+
+.vulnerabilities-table thead tr th {
+  border: none;
+}
+
+.vulnerabilities-table tbody tr th {
+  font-weight: normal;
+  border: none;
+}
+
+.vulnerabilities-title-cell {
+  color: #DDDDDD
+}
