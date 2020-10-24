@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://redteam.netlify.app/"
 languageCode = "en-us"
 theme = "hello-friend-ht"
 paginate = 5
