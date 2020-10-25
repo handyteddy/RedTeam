@@ -1,4 +1,4 @@
-baseurl = "https://redteam.netlify.app/"
+baseurl = "https://www.redteam.ng"
 languageCode = "en-us"
 theme = "hello-friend-ht"
 paginate = 5
@@ -18,8 +18,8 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "The Title of Your Site Goes Here"
-    subtitle = "A simple theme for Hugo"
+    title = "Hack Sleep Repeat"
+    subtitle = "HSR"
     keywords = ""
     copyright = ""
     menuMore = "Menu"
@@ -33,7 +33,7 @@ paginate = 5
     dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "the logo of your site goes here"
+      logoText = "RedTeam NG"
       logoHomeLink = "/"
     # or
     #
