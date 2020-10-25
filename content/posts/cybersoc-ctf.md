@@ -3,7 +3,7 @@ title: "CyberSOC CTF Challenge"
 date: 2020-10-25T03:09:07-03:00
 draft: false
 cover: "img/hello.jpg"
-blogs: ["HackTheBox"]
+blogs: ["CTF_Challenges"]
 ---
 
 
