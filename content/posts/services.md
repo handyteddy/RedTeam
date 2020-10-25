@@ -4,14 +4,35 @@ date: 2020-10-22T10:44:31-03:00
 draft: false
 ---
 
-Duis commodo laboris cupidatat anim. Id tempor irure voluptate ut. Velit ad aliquip irure eiusmod enim elit ullamco occaecat esse exercitation.
+{{< figure src="/images/penetration-test-banner.jpg">}}
 
-Elit adipisicing deserunt quis consectetur nisi. Commodo occaecat veniam deserunt id tempor elit nostrud incididunt irure. Labore dolor et ut cillum mollit elit aliquip pariatur sit dolor eiusmod irure. Occaecat velit proident pariatur irure consectetur proident quis amet amet. Et irure excepteur culpa incididunt pariatur cillum laborum amet nostrud non sint nostrud.
+# What We Offer
 
-Nostrud dolore amet fugiat est amet id officia nisi cillum elit. Minim voluptate non veniam ullamco esse enim exercitation adipisicing. In ea nulla ut reprehenderit irure mollit ad laboris id occaecat. Esse ad qui ipsum aliqua cupidatat.
+Want a secure environment? Go back to the 40's
 
-Enim dolore nisi excepteur pariatur aliquip tempor non sint sint aliqua excepteur. Dolor dolore enim aute aliqua laboris nulla pariatur aute in minim eiusmod excepteur ex laboris. Eiusmod ex elit voluptate culpa commodo consectetur veniam enim exercitation deserunt reprehenderit culpa.
+Every interconnected device is at risk of been exploited, from you Coffee brewer to your home PC with damages resulting into personal and finacial loss.
 
-Qui veniam anim anim laborum amet reprehenderit ea. Amet incididunt excepteur sint sunt commodo irure sit amet. Pariatur laboris est exercitation mollit sunt. Adipisicing commodo in laborum deserunt aute ipsum. Non Lorem laboris ex labore ad commodo Lorem consectetur commodo dolor voluptate officia in. Nisi anim sunt minim veniam id nostrud ut sunt ex dolore ut.
+At redteam we aggresively look for vulnerabilities where non seems to exist, 
+You see that `Smart TV` you just bought? Yes it could be used to monitor you in entirety.
 
-Sunt irure occaecat magna in. Voluptate magna consectetur minim do nostrud culpa veniam non est est aliqua. Consequat mollit proident non est enim irure ut.
+You see that bricklayer you invited to your business office for an estimation ? Yes he could have malicious intent and decide to do uncanny things on your network while being unmonitored.
+
+
+Yes, You receive an email from the hotel you're currently logged at to verify you check-in information, **Well think before you click** because an hour ago you uploaded your self in front of that hotel and actors are actively studying your every move to craft personalized attacks againts you.
+
+
+### We offer
+
+#### - Penetration Testing & Vulnerability Analysis
+	
+#### - Phishing As A Service  
+  - We strongly belive your executive's has itchy fingers, lets prove it !
+  - Currently offering for FREE for small to medium scale business's
+
+#### - Web Application Penetration Testing 
+  - Currently offering for FREE for newbie web/app developer's
+  - With extended testing and reporting  
+
+
+>### There are only two types of companies: those that have been hacked, and those that will be.
+
