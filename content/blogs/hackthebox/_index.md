@@ -1,5 +1,5 @@
 ---
 title: "HackTheBox"
 image: "kaur-kristjan-SROYR9rhJGM-unsplash.jpg"
-description: "Nostrud cupidatat nisi reprehenderit aute mollit velit nisi aliqua. Sit ea voluptate sit non. Aute veniam veniam quis sunt enim."
+description: "Write ups on machine's from Hack The Box which is an online platform allowing you to test your penetration testing skills "
 ---

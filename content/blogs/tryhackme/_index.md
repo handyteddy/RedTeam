@@ -1,5 +1,6 @@
 ---
 title: "TryHackMe"
 image: "markus-spiske-iar-afB0QQw-unsplash.jpg"
-description: "Mollit pariatur deserunt enim eu officia ea laboris ad fugiat pariatur sint non duis. Nostrud irure aute dolore Lorem consequat eu culpa ullamco pariatur."
+description: "ristjan-SROYR9rhJGM-unsplash.jpg"
+description: "Write ups on machine's from TryHackMe which is a portal for security researchers that provide a way to learn and practice skills through a series of challenges."
 ---
