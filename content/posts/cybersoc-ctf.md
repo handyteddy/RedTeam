@@ -9,7 +9,7 @@ blogs: ["CTF_Challenges"]
 
 ## CyberSOC CTF Challenge 
 {{< image src="images/cbc.png">}}
-{{< figure src="/images/cbc.png" title="Steve Francia" >}}
+{{< figure src="/images/cybersocctf/cbc.png" title="Steve Francia" >}}
 The CyberSOC challenge is a quite interesting test of **patience, perseverance, and the stock ability to think**
 The challenge claims a link is hidden in the provided image, A link to which the challenge will be started.
 
