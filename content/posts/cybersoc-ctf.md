@@ -13,7 +13,7 @@ blogs: ["CTF_Challenges"]
 The CyberSOC challenge is a quite interesting test of **patience, perseverance, and the stock ability to think**
 The challenge claims a link is hidden in the provided image, A link to which the challenge will be started.
 
-{{< image src="images/hidden.png">}}
+{{< image src="images/hidden.jpg">}}
 
 > Fusce pharetra suscipit orci nec tempor. Quisque vitae sem sit amet sem mollis consequat. Sed at imperdiet lorem. Vestibulum pharetra faucibus odio, ac feugiat tellus sollicitudin at. Pellentesque varius tristique mi imperdiet dapibus. Duis orci odio, sodales lacinia venenatis sit amet, feugiat et diam.
 
@@ -90,7 +90,7 @@ Provided with a picture and the sole aim of figuring where the photograph was ta
 >Amnesty Decoders is a global network of digital volunteers, all using 
  their computers or phone to help Amnesty's researchers sort through pictures, documents and information and track and expose human rights violations
 
-{{< image src="images/geolocation.png">}}
+{{< image src="images/geolocation.jpg">}}
 
 After messing around with reverse image searches with no results , Paying more attention i noticed a quite popular Landmark to the far left 
 _The Ikoyi Link Bridge , Two Power line's , and what seems to be like a dock for boats_
