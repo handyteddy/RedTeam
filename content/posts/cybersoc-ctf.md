@@ -10,20 +10,22 @@ blogs: ["CTF_Challenges"]
 ## CyberSOC CTF Challenge 
 
 
-The CyberSOC challenge is a quite interesting test of **patience, perseverance, and the stock ability to think**
-The challenge claims a link is hidden in the provided image, A link to which the challenge will be started.
+The CyberSOC challenge is a quite interesting test of **patience, perseverance, and the stock ability to think** ,
+The challenge claims a link is hidden in the provided image, a link to which the challenge will be started.
 
 {{< figure src="/images/cybersocctf/hidden.jpg">}}
 
 
-My initial thought was **"Security by Obscurity"** which led me to believe certain information was hidden in the images either in metadata or hidden in bits of unused data of the image file. 
-So therefore i tried extracting metadata using Exiftool, and Checking for hidden data using Steg-analysis like Steghide and Stegoveritas …All to no Avail 
+My initial thought was **"Security by Obscurity"** which led me to believe certain information was hidden in the image either in metadata or hidden in bits of unused data of the image file. 
+
+So therefore i tried extracting metadata using **Exiftool**, and Checking for hidden data using Steg-analysis tools like **Steghide** and **Stegoveritas** …All to no Avail 
 
 Paying a little attention the image, we notice a `Join🛡️.ws` , The Shield emoji is similar to Cybersoc logo, so i initially started by substituting the "Shield emoji" for "Cybersoc"
 Below is the list of domains i tried 
 `joincybersoc.ws` `joincs.ws` `joincybersocafrica.ws` `join.cybersoc.ws`
 amongst several others domain iterations,
-after several minutes i paid attention to the .ws landing page and noticed the "Register Your .WS Domain 🙂.ws" as in the image below
+
+after several minutes i paid attention to the .ws landing page and noticed the `Register Your .WS Domain 🙂.ws` as in the image below
 
 {{< figure src="/images/cybersocctf/wslanding.png">}}
 
