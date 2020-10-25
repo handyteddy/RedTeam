@@ -19,7 +19,7 @@ paginate = 5
 [languages]
   [languages.en]
     title = "Hack Sleep Repeat"
-    subtitle = "HSR"
+    subtitle = "RedTeam NG"
     keywords = ""
     copyright = ""
     menuMore = "Menu"
