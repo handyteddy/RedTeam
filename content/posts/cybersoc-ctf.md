@@ -13,7 +13,7 @@ blogs: ["CTF_Challenges"]
 The CyberSOC challenge is a quite interesting test of **patience, perseverance, and the stock ability to think**
 The challenge claims a link is hidden in the provided image, A link to which the challenge will be started.
 
-{{< figure src="images/cybersocctf/hidden.jpg">}}
+{{< figure src="/images/cybersocctf/hidden.jpg">}}
 
 
 My initial thought was **"Security by Obscurity"** which led me to believe certain information was hidden in the images either in metadata or hidden in bits of unused data of the image file. 
@@ -25,12 +25,12 @@ Below is the list of domains i tried 
 amongst several others domain iterations,
 after several minutes i paid attention to the .ws landing page and noticed the "Register Your .WS Domain 🙂.ws" as in the image below
 
-{{< figure src="images/cybersocctf/wslanding.png">}}
+{{< figure src="/images/cybersocctf/wslanding.png">}}
 
 I immediately did a quick research and found informations related to emoji Domains
 which converts an emoji to punnycode and subtitute the converted character for a domain name
 
-{{< figure src="images/cybersocctf/punnycode.png">}}
+{{< figure src="/images/cybersocctf/punnycode.png">}}
 
 #### Heading to xn- join-3683c.ws
 We are greeted to begin  with the CTF challenge
@@ -40,7 +40,7 @@ We are greeted to begin  with the CTF challenge
 The question asks, **What you see ?**, which implies we aren't seeing what we ought to see
 Getting curious i dragged the mouse around and figured what the flag was
 
-{{< figure src="images/cybersocctf/whatyousee.png">}}
+{{< figure src="/images/cybersocctf/whatyousee.png">}}
 
 ## Challenge 2
 
@@ -50,12 +50,12 @@ Zero is more than nothing : and we are provided with binary numbers
 
 A quick Search of Binary decoder give's several options which inturn leads to an anwser
 
-{{< figure src="images/cybersocctf/crypti.png">}}
+{{< figure src="/images/cybersocctf/crypti.png">}}
 
 ## Challenge 3
 if a **flag is more than just cloth and ink**, What else could it be ?
 
-{{< figure src="images/cybersocctf/flags.png">}}
+{{< figure src="/images/cybersocctf/flags.png">}}
 
 Asked to crack a code and all we were given are flags, So most definitely we need text characters from the flags.
 
@@ -64,7 +64,7 @@ Seeing flags i immediately knew we were dealing with a **alpha-2 codes**
 
 An example of alpha 2 code below
 
-{{< figure src="images/cybersocctf/alpha2code.png">}}
+{{< figure src="/images/cybersocctf/alpha2code.png">}}
 
 So substituting our flags for the alpah2code equivalent should give us our flag,
 but one solution leads to another problem 
@@ -88,14 +88,14 @@ Provided with a picture and the sole aim of figuring where the photograph was ta
 >Amnesty Decoders is a global network of digital volunteers, all using 
  their computers or phone to help Amnesty's researchers sort through pictures, documents and information and track and expose human rights violations
 
-{{< figure src="images/cybersocctf/geolocation.jpg">}}
+{{< figure src="/images/cybersocctf/geolocation.jpg">}}
 
 After messing around with reverse image searches with no results , Paying more attention i noticed a quite popular Landmark to the far left 
 _The Ikoyi Link Bridge , Two Power line's , and what seems to be like a dock for boats_
 
 So ignoring the regular directional map and utilizing the rich satellite imagery we come up with a obvious flag
 
-{{< figure src="images/cybersocctf/satelite.png">}}
+{{< figure src="/images/cybersocctf/satelite.png">}}
 
 ## Challenge 6
 Satellite Point Of View was a straight forward test of sight - _lol_
@@ -104,7 +104,7 @@ The challenge was about Picking out glarings structural buildings that had simil
 
 Each "Datum Point" has a single character of it's own and the addition of all datum point is the flag
 
-{{< figure src="images/cybersocctf/datum.png">}}
+{{< figure src="/images/cybersocctf/datum.png">}}
 
 ## Challenge 7
 when the "geolocation" image was captured?
@@ -116,7 +116,7 @@ Metadata summarizes basic information about data, and stores that information in
 
 Running exiftools on the picture reveals
 
-{{< figure src="images/cybersocctf/exiftools.png">}}
+{{< figure src="/images/cybersocctf/exiftools.png">}}
 
 Clearly we can see When the picture was taken
 
@@ -125,7 +125,7 @@ which device was used to capture the image?
 A quick search of SM-F700F reveals the flag
 
 
-{{< figure src="images/cybersocctf/device.png">}}
+{{< figure src="/images/cybersocctf/device.png">}}
 
 Congratulations on completion of the challenge and remember
 
