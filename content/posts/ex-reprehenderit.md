@@ -2,7 +2,7 @@
 title: "Ex Reprehenderit"
 date: 2020-10-22T10:58:44-03:00
 draft: false
-blogs: ["HackTheBox"]
+blogs: ["ProvingGrounds"]
 ---
 
 Minim cupidatat voluptate do dolor nisi amet nulla consequat ipsum in nostrud Lorem ad. Proident ut non incididunt deserunt sit sit ullamco. Lorem aliqua cupidatat esse aliqua esse aliquip fugiat consectetur. Consectetur cupidatat magna aute mollit id reprehenderit nulla. Et ex veniam do labore veniam nisi aute ut sint sit duis.

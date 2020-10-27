@@ -2,7 +2,7 @@
 title: "Id Minim Ullamco"
 date: 2020-10-22T10:57:19-03:00
 draft: false
-blogs: ["TryHackMe"]
+blogs: ["CyberSecLabs"]
 ---
 
 Sit ea voluptate enim voluptate duis proident consequat aute. Deserunt proident in aute sunt. Nisi commodo in quis commodo tempor labore voluptate ut sit qui eu. Nostrud enim esse velit deserunt non laborum. Ea reprehenderit commodo cupidatat elit nulla exercitation veniam labore quis adipisicing non consequat anim fugiat. Nostrud occaecat ex occaecat non elit amet tempor magna ullamco. Pariatur enim nisi culpa irure laborum.
