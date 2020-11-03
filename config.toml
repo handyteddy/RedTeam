@@ -46,14 +46,14 @@ paginate = 5
         name = "Services"
         url = "/posts/services/"
         pre = "services.png"
-        post= "Quis aute dolore proident velit incididunt incididunt esse culpa Lorem in do ipsum."
+        post= "Service's we offer are mostly free for small to medium enterprises."
         weight = 10
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/posts/about/"
         pre = "about.png"
-        post= "Quis aute dolore proident velit incididunt incididunt esse culpa Lorem in do ipsum."
+        post= "Quick about us, our achievment and aim."
         weight = 50
       [[languages.en.menu.main]]
         identifier = "training"
@@ -74,12 +74,12 @@ paginate = 5
         name = "Blogs"
         url = "/blogs/"
         pre = "blogs.png"
-        post = "Fugiat cillum ea reprehenderit laborum ad quis eiusmod ullamco consequat."
+        post = "Write ups showing industry methodologies in exploiting vulnerable machine's from different sources "
         weight = 10000
       [[languages.en.menu.main]]
         identifier = "vulnerabilities"
         name = "Vulnerabilities"
         url = "/vulnerabilities/"
         pre = "vulns.png"
-        post = "Consectetur sit sint pariatur aute reprehenderit nisi ad id non excepteur."
+        post = "Hosted 0days and exploits to disclosed vulnerabilities, Ransomwware and viruses for trianing and educational purposes."
         weight = 100000
