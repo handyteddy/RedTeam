@@ -81,5 +81,5 @@ paginate = 5
         name = "Vulnerabilities"
         url = "/vulnerabilities/"
         pre = "vulns.png"
-        post = "Hosted 0days and exploits to disclosed vulnerabilities, Ransomwware and viruses for trianing and educational purposes."
+        post = "Hosted 0days and exploits to disclosed vulnerabilities, Ransomwware and viruses for training and educational purposes."
         weight = 100000
