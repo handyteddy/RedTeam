@@ -10,7 +10,7 @@ blogs: ["CTF_Challenges"]
 ## CyberSOC CTF Challenge 
 
 
-The CyberSOC challenge is a quite interesting test of **patience, perseverance, and the stock ability to think** ,
+TheThe CyberSOC challenge is a quite interesting test of **patience, perseverance, and the stock ability to think** ,
 The challenge claims a link is hidden in the provided image, a link to which the challenge will be started.
 
 {{< figure src="/images/cybersocctf/hidden.jpg">}}
