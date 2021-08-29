@@ -2,7 +2,7 @@
 title: "ABC CTF Challenge"
 date: 2021-08-28T03:09:07-03:00
 draft: false
-cover: "images/cybersocctf/cbc.png"
+cover: "images/abcctf/2021_cybersecurity.jpeg"
 blogs: ["CTF_Challenges"]
 ---
 
