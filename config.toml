@@ -13,6 +13,15 @@ paginate = 5
   # Enable to show reading time in minutes for posts
   showReadingTime = false
   enableSharingButtons = true
+  
+  
+  [Params.social.share]
+  facebook = true
+  linkedin = true
+  twitter = true
+  whatsapp = true
+  email = true
+
 [taxonomies]
   blogs = "blogs"
 
