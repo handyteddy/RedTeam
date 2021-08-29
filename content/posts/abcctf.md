@@ -41,7 +41,7 @@ we are immediately flagged as malicious by Gmails Egress Malware Scanner
 
 {{< figure src="/images/abcctf/egress-gmail.gif">}}
 
-**2st attempts:** We resulted into trying several empire powershell payload and bypasses, Persian Hydra Xor encryption with Custom keys, EgeBalci/sgn Shikata\_ga\_nai encoder, All to no avail
+**2nd attempts:** We resulted into trying several empire powershell payload and bypasses, Persian Hydra Xor encryption with Custom keys, EgeBalci/sgn Shikata\_ga\_nai encoder, All to no avail
 
 {{< figure src="/images/abcctf/head-boom.gif">}}
 
@@ -56,14 +56,14 @@ then pass the raw shellcode to the scarecrow binary along with a random domain n
 
 {{< figure src="/images/abcctf/scarecrow.png">}}
 
-we then created a meterpreter listener using the connection variable of the shellcode as options: “would have preferred Cobalt-strike but its for the BigBoys like Rotimi:)”
+we then created a meterpreter listener using the connection variable of the shellcode as options: “would have preferred Cobalt-strike but its for the BigBoys like InfosecShinobi 🙂”
 
 ## **DELIVERY**
 
 The output of ScareCrow is an obfuscated .exe payload, being at the third stage of the “cyber attack cycle” which is delivery  
 we somehow need to get the payload the victim machine and “run” it
 
-We decided to use the old aged Microsoft Office Document with macro with the .docm extension,  
+We decided to use the old aged Microsoft Word Document with macro in the .docm extension,  
 the function of the macro was to run a powershell one-liner that downloads the payload \[Powerpnt.exe\] binary hosted on our machine, store it in C:\\windows\\temp\\ and then run it
 
 > Sub Document\_Open()  
