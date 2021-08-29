@@ -6,20 +6,12 @@ cover: "images/abcctf/2021_cybersecurity.jpeg"
 blogs: ["CTF_Challenges"]
 ---
 
-![](https://miro.medium.com/max/1400/1*NINvpcA8Z478bBNm4FxTCg.jpeg)
-
-ABC CyberHackathon RedTeam CTF
-==============================
+## ABC CyberHackathon RedTeam CTF
+## ==============================
 
 [![CY3ER-R4T](https://miro.medium.com/fit/c/56/56/1*OmV3HIyQWlvcOSNAAU7uOQ.png)](https://medium.com/?source=post_page-----43bddc822241--------------------------------)[
 
 CY3ER-R4T
-
-](https://medium.com/?source=post_page-----43bddc822241--------------------------------)[
-
-Just now·6 min read
-
-](https://medium.com/abc-cyberhackathon-redteam-ctf-43bddc822241?source=post_page-----43bddc822241--------------------------------)
 
 **INTRODUCTION**
 
@@ -31,7 +23,7 @@ other post by my team mate [Muzec](https://medium.com/u/c9e9bd44299d?source=post
 **SCENARIO**
 
 The scenario we are presented with by the organizers is that of an Fat Fingered individual that unconsciously opens every email and attachment he gets in he’s corporate email : [obiora\_nurudeen@ctf.ng](http://mailto:obiora_nurudeen@ctf.ng)
-
+{{< figure src="https://miro.medium.com/max/998/1\*VH4PvxhXVzuTjA5HgwUeyQ.png">}}
 <img alt="" class="fd ej ef eo w" src="https://miro.medium.com/max/998/1\*VH4PvxhXVzuTjA5HgwUeyQ.png" width="499" height="141" srcSet="https://miro.medium.com/max/552/1\*VH4PvxhXVzuTjA5HgwUeyQ.png 276w, https://miro.medium.com/max/998/1\*VH4PvxhXVzuTjA5HgwUeyQ.png 499w" sizes="499px" role="presentation"/>
 
 Armed with just he’s name Nurudeen Obiora, the email above and the knowledge of the targets low awareness in basic email security,  
