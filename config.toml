@@ -1,4 +1,4 @@
-baseurl = "https://www.redteam.ng/blogs"
+baseurl = "https://www.redteam.ng/"
 languageCode = "en-us"
 theme = "hello-friend-ht"
 paginate = 5
