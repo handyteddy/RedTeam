@@ -53,7 +53,7 @@ we are immediately flagged as malicious by Gmails Egress Malware Scanner
 
 In short, we can generate some raw shellcode from the software of our choice (Cobalt Strike, Metasploit, PoshC2, etc) and pass it to the Scarecrow to get a loader back that will implement some common EDR evasion techniques.
 
-we decide to create a create a _windows/x64/meterpreter\_reverse\_tcp_ shellcode using msfvenom \[msfvenom shellcode is a pain, its crappy and might be unstable at times\]
+we decide to create a create a `_windows/x64/meterpreter\_reverse\_tcp_` shellcode using msfvenom \[msfvenom shellcode is a pain, its crappy and might be unstable at times\]
 {{< figure src="/images/abcctf/msfvenom.png">}}
 
 then pass the raw shellcode to the scarecrow binary along with a random domain name for a cloned signed certificate
@@ -100,16 +100,16 @@ Itchy finger Nurudeen opens the malicious document with the payload sending us a
 {{< figure src="/images/abcctf/meterpreter.png">}} 
 
 Now the hunt for flags begin, which literally means _ENUMERATION_  
-checking to see what the internal IP looks like, we find the user IP address we we already solved the unintended way by checking the header of the response email\[FLAG8\]
+checking to see what the internal IP looks like, we find the user IP address we we already solved the unintended way by checking the header of the response email`\[FLAG8\]`
 
 {{< figure src="/images/abcctf/header.png">}}
 
-checking the current user directory and finding unattend.xml that contains \[FLAG4\]
+checking the current user directory and finding `unattend.xml` that contains `\[FLAG4\]`
 
 {{< figure src="/images/abcctf/ctf_xml.jpeg">}}
 
 curious about what local users are on the machine just to get an idea of what movement of privilege escalation was necessary, lateral or horizontal  
-we find two more flags \[FLAG3\] \[FLAG5\]
+we find two more flags `\[FLAG3\]` `\[FLAG5\]`
 
 
 {{< figure src="/images/cybersocctf/net_user.jpeg">}}
@@ -125,7 +125,7 @@ We proceeded to killing the process and sending the OST to our local machine wit
 
 {{< figure src="/images/cybersocctf/task_kill.jpeg">}}
 
-Converting the ost with the steller converter we find \[FLAG1\]
+Converting the ost with the steller converter we find `\[FLAG1\]`
 
 {{< figure src="/images/cybersocctf/steller.jpeg">}}
 
@@ -146,9 +146,9 @@ The system tries to interpret the possibilities in the following order:
 
 if any of the directory along the path is writable and said service is running with system privileges then this misconfiguration is easily exploitable
 
-we can enumerate and find Unquoted Service Path by using the wmic command “wmic service get name,pathname”
+we can enumerate and find Unquoted Service Path by using the wmic command `wmic service get name,pathname`
 
-we can aswell check to see if the service is running with system privileges still by using wmic “wmic service get pathname,startname”
+we can aswell check to see if the service is running with system privileges still by using wmic `wmic service get pathname,startname`
 
 
 {{< figure src="/images/cybersocctf/servicepath.png">}}
