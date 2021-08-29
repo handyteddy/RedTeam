@@ -123,7 +123,7 @@ We proceeded to killing the process and sending the OST to our local machine wit
 
 Converting the ost with the steller converter we find `\[FLAG1\]`
 
-{{< figure src="/images/abcctf/steller.jpeg">}}
+{{< figure src="/images/abcctf/steller.png">}}
 
 After running out of flags to find, it was time for horizontal privilege escalation
 
@@ -152,11 +152,3 @@ we can aswell check to see if the service is running with system privileges stil
 > **END OF PART ONE**
 >#### The difference between a noob and a hacker is that a hacker has failed more than a noob has ever tried
 
-  {{ if .Site.Params.social.share.linkedin }}
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ $url }}&amp;source={{ $url }}&amp;title={{ $title }}&amp;summary={{ $title }}" target="_blank" rel="noopener" aria-label="Share on LinkedIn" class="share-btn linkedin">
-          {{ partial "svg/linkedin.svg" (dict "class" "widget-social__link-icon") }}
-            <p>LinkedIn</p>
-          </a>
-      </li>
-      {{ end }}
