@@ -9,18 +9,15 @@ blogs: ["CTF_Challenges"]
 ## ABC CyberHackathon RedTeam CTF
 ## ==============================
 
-[![CY3ER-R4T](https://miro.medium.com/fit/c/56/56/1*OmV3HIyQWlvcOSNAAU7uOQ.png)](https://medium.com/?source=post_page-----43bddc822241--------------------------------)[
-
-CY3ER-R4T
-
-**INTRODUCTION**
+[![CY3ER-R4T](https://cyberrat.medium.com/)[
+## **INTRODUCTION**
 
 My team RedTeamNG recently came first in the The American Business Council Cybersecurity Hackathon 2021 organized by ctf.ng and major sponsors bothering from American Business Council,Microsoft,AWS, Cisco, Comercio, HP, IBM and others
 
 This write up would be focused only on the finals and specifically the RedTeam challenges running through the methodology used to tackling it,  
-other post by my team mate [Muzec](https://medium.com/u/c9e9bd44299d?source=post_page-----43bddc822241--------------------------------) would be covering the Web Challenges.
+other post by my team mate [Muzec](https://muzec0318.github.io/posts/abcctf.html)would be covering the Web Challenges.
 
-**SCENARIO**
+## **SCENARIO**
 
 The scenario we are presented with by the organizers is that of an Fat Fingered individual that unconsciously opens every email and attachment he gets in he’s corporate email : [obiora\_nurudeen@ctf.ng](http://mailto:obiora_nurudeen@ctf.ng)
 
@@ -53,8 +50,8 @@ we are immediately flagged as malicious by Gmails Egress Malware Scanner
 
 In short, we can generate some raw shellcode from the software of our choice (Cobalt Strike, Metasploit, PoshC2, etc) and pass it to the Scarecrow to get a loader back that will implement some common EDR evasion techniques.
 
-we decide to create a create a `_windows/x64/meterpreter\_reverse\_tcp_` shellcode using msfvenom \[msfvenom shellcode is a pain, its crappy and might be unstable at times\]
-{{< figure src="/images/abcctf/msfvenom.png">}}
+we decide to create a create a `windows/x64/meterpreter\reverse\tcp` shellcode using msfvenom \[msfvenom shellcode is a pain, its crappy and might be unstable at times\]
+{{< figure src="/images/abcctf/msfvenom.gif">}}
 
 then pass the raw shellcode to the scarecrow binary along with a random domain name for a cloned signed certificate
 
@@ -62,7 +59,7 @@ then pass the raw shellcode to the scarecrow binary along with a random domain n
 
 we then created a meterpreter listener using the connection variable of the shellcode as options: “would have preferred Cobalt-strike but its for the BigBoys like Rotimi:)”
 
-**DELIVERY**
+## **DELIVERY**
 
 The output of ScareCrow is an obfuscated .exe payload, being at the third stage of the “cyber attack cycle” which is delivery  
 we somehow need to get the payload the victim machine and “run” it
@@ -88,7 +85,7 @@ the function of the macro was to run a powershell one-liner that downloads the p
 
 {{< figure src="/images/abcctf/macro.png">}}
 
-**WEAPONIZATION**
+## **WEAPONIZATION**
 
 Weaponized the final email and sent the .docm to the target by gmail
 
@@ -131,7 +128,7 @@ Converting the ost with the steller converter we find `\[FLAG1\]`
 
 After running out of flags to find, it was time for horizontal privilege escalation
 
-**LATERAL PRIVILEGE ESCALATION  
+## **LATERAL PRIVILEGE ESCALATION  
 Machine Misconfigured with an Unquoted Service Path**
 
 Sometimes it is possible to escalate privileges by abusing mis-configured services. Specifically, this is possible if path to the service binary is not wrapped in quotes and there are spaces in the path..  
