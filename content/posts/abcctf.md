@@ -152,3 +152,11 @@ we can aswell check to see if the service is running with system privileges stil
 > **END OF PART ONE**
 >#### The difference between a noob and a hacker is that a hacker has failed more than a noob has ever tried
 
+
+[[params.social]]
+  name = "linkedin"
+  url = "<profile_URL>"
+
+[[params.social]]
+  name = "twitter"
+  url = "<profile_URL>"
