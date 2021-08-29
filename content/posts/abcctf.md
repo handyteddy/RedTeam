@@ -108,7 +108,7 @@ curious about what local users are on the machine just to get an idea of what mo
 we find two more flags `\[FLAG3\]` `\[FLAG5\]`
 
 
-{{< figure src="/images/cybersocctf/net_user.jpeg">}}
+{{< figure src="/images/abcctf/net_user.jpeg">}}
 
 One of the challenges goes by the name “Registry Never Lies” which immediately prompted us to query the registry table to find \[FLAG2\]
 
@@ -119,11 +119,11 @@ The what seems to be easy challenge turned to a battle “Outlook Storage 150poi
 
 We proceeded to killing the process and sending the OST to our local machine with netcat
 
-{{< figure src="/images/cybersocctf/task_kill.jpeg">}}
+{{< figure src="/images/abcctf/task_kill.jpeg">}}
 
 Converting the ost with the steller converter we find `\[FLAG1\]`
 
-{{< figure src="/images/cybersocctf/steller.jpeg">}}
+{{< figure src="/images/abcctf/steller.jpeg">}}
 
 After running out of flags to find, it was time for horizontal privilege escalation
 
@@ -147,7 +147,7 @@ we can enumerate and find Unquoted Service Path by using the wmic command `wmic 
 we can aswell check to see if the service is running with system privileges still by using wmic `wmic service get pathname,startname`
 
 
-{{< figure src="/images/cybersocctf/servicepath.png">}}
+{{< figure src="/images/abcctf/servicepath.png">}}
 
 > **END OF PART ONE**
 >#### The difference between a noob and a hacker is that a hacker has failed more than a noob has ever tried
