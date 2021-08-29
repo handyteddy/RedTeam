@@ -156,3 +156,4 @@ we can enumerate and find Unquoted Service Path by using the wmic command “wmi
 we can aswell check to see if the service is running with system privileges still by using wmic “wmic service get pathname,startname”
 
 > **END OF PART ONE**
+>#### The difference between a noob and a hacker is that a hacker has failed more than a noob has ever tried
