@@ -46,28 +46,28 @@ paginate = 5
         name = "Services"
         url = "/posts/services/"
         pre = "services.png"
-        post= "Service's we offer are mostly free for small to medium enterprises."
+        post= "Services i offer are mostly free for small to medium enterprises."
         weight = 10
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/posts/about/"
         pre = "about.png"
-        post= "Quick about us, our achievment and aim."
+        post= "Quick about me, achievments and aim."
         weight = 50
       [[languages.en.menu.main]]
         identifier = "training"
         name = "Training"
         url = "/posts/training/"
         pre = "training.png"
-        post = "Ex elit culpa elit cillum labore."
+        post = "Hehe, Free tutoring hit me up on Discord CY3ER-R4T#1337 ."
         weight = 100
       [[languages.en.menu.main]]
         identifier = "tools"
         name = "Tools"
         url = "/tools/"
         pre = "tools.png"
-        post = "Occaecat ipsum anim consectetur eiusmod do commodo proident exercitation nulla enim pariatur ullamco adipisicing laborum."
+        post = "Tools reguarly used on VAPT and RedTeam engagements."
         weight = 1000
       [[languages.en.menu.main]]
         identifier = "blog"
