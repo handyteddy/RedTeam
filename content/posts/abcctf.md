@@ -6,10 +6,6 @@ cover: "images/abcctf/2021_cybersecurity.jpeg"
 blogs: ["CTF_Challenges"]
 ---
 
-
-> medium-to-markdown@0.0.3 convert
-> node index.js "https://cyberrat.medium.com/abc-cyberhackathon-redteam-ctf-43bddc822241"
-
 ![](https://miro.medium.com/max/1400/1*NINvpcA8Z478bBNm4FxTCg.jpeg)
 
 ABC CyberHackathon RedTeam CTF
