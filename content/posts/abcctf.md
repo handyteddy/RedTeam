@@ -2,7 +2,7 @@
 title: "ABC CTF Challenge"
 date: 2021-08-28T03:09:07-03:00
 draft: false
-cover: "images/abcctf/2021_cybersecurity"
+cover: "images/abcctf/2021_cybersecurity.jpeg"
 blogs: ["CTF_Challenges"]
 ---
 
@@ -14,7 +14,7 @@ blogs: ["CTF_Challenges"]
 My team RedTeamNG recently came first in the The American Business Council Cybersecurity Hackathon 2021 organized by ctf.ng and major sponsors bothering from American Business Council,Microsoft,AWS, Cisco, Comercio, HP, IBM and others
 
 This write up would be focused only on the finals and specifically the RedTeam challenges running through the methodology used to tackling it,  
-other post by my team mate [Muzec](https://muzec0318.github.io/posts/abcctf.html)would be covering the Web Challenges.
+other post by my team mate [Muzec](https://muzec0318.github.io/posts/abcctf.html) would be covering the Web Challenges.
 
 ## **SCENARIO**
 
@@ -153,10 +153,4 @@ we can aswell check to see if the service is running with system privileges stil
 >#### The difference between a noob and a hacker is that a hacker has failed more than a noob has ever tried
 
 
-[[params.social]]
-  name = "linkedin"
-  url = "<profile_URL>"
 
-[[params.social]]
-  name = "twitter"
-  url = "<profile_URL>"
