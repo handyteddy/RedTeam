@@ -2,7 +2,7 @@
 title: "CyberSOC CTF Challenge"
 date: 2020-10-25T03:09:07-03:00
 draft: false
-cover: "images/cybersocctf/cbc.png"
+cover: "images/abcctf/2021_cybersecurity.jpeg"
 blogs: ["CTF_Challenges"]
 ---
 
