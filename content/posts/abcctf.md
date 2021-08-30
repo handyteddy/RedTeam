@@ -84,6 +84,12 @@ the function of the macro was to run a powershell one-liner that downloads the p
 
 {{< figure src="/images/abcctf/macro.png">}}
 
+it isnt advised to host any binary payload with the python http.server as there can be issues with the way it handles powershell Invoke Web Request or HTTPrequest  at times, starting a proper apache server is a better option 
+Also know what port your binary is hosted on is important as there could be egress firewalls on the victim PC to non HTTP, HTTPS port  
+
+{{< figure src="/images/abcctf/apache_host.gif">}} 
+
+
 ### WEAPONIZATION
 
 Weaponized the final email and sent the .docm to the target by gmail
