@@ -11,7 +11,7 @@ blogs: ["CTF_Challenges"]
 #### [CY3ER-R4T](https://cyberrat.medium.com/)
 ## INTRODUCTION
 
-My team RedTeamNG recently came first in the The American Business Council Cybersecurity Hackathon 2021 organized by ctf.ng and major sponsors bothering from American Business Council,Microsoft,AWS, Cisco, Comercio, HP, IBM and others
+My team RedTeamNG recently came first in the The American Business Council Cybersecurity Hackathon 2021 organized by NaijaSecForce in patnership with major sponsors bothering from American Business Council,Microsoft,AWS, Cisco, Comercio, HP, IBM and others
 
 This write up would be focused only on the finals and specifically the RedTeam challenges running through the methodology used to tackling it,  
 other post by my team mate [Muzec](https://muzec0318.github.io/posts/abcctf.html) would be covering the Web Challenges.
