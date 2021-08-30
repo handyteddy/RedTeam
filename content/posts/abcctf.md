@@ -6,17 +6,17 @@ cover: "images/abcctf/2021_cybersecurity.jpeg"
 blogs: ["CTF_Challenges"]
 ---
 
-## ABC CyberHackathon RedTeam CTF
+## **ABC CyberHackathon RedTeam CTF**
 
 #### [CY3ER-R4T](https://cyberrat.medium.com/)
-## **INTRODUCTION**
+## INTRODUCTION
 
 My team RedTeamNG recently came first in the The American Business Council Cybersecurity Hackathon 2021 organized by ctf.ng and major sponsors bothering from American Business Council,Microsoft,AWS, Cisco, Comercio, HP, IBM and others
 
 This write up would be focused only on the finals and specifically the RedTeam challenges running through the methodology used to tackling it,  
 other post by my team mate [Muzec](https://muzec0318.github.io/posts/abcctf.html) would be covering the Web Challenges.
 
-## **SCENARIO**
+## SCENARIO
 
 The scenario we are presented with by the organizers is that of an Fat Fingered individual that unconsciously opens every email and attachment he gets in he’s corporate email : [obiora\_nurudeen@ctf.ng](http://mailto:obiora_nurudeen@ctf.ng)
 
@@ -58,7 +58,7 @@ then pass the raw shellcode to the scarecrow binary along with a random domain n
 
 we then created a meterpreter listener using the connection variable of the shellcode as options: “would have preferred Cobalt-strike but its for the BigBoys like InfosecShinobi 🙂”
 
-## **DELIVERY**
+## DELIVERY
 
 The output of ScareCrow is an obfuscated .exe payload, being at the third stage of the “cyber attack cycle” which is delivery  
 we somehow need to get the payload the victim machine and “run” it
@@ -84,7 +84,7 @@ the function of the macro was to run a powershell one-liner that downloads the p
 
 {{< figure src="/images/abcctf/macro.png">}}
 
-## **WEAPONIZATION**
+## WEAPONIZATION
 
 Weaponized the final email and sent the .docm to the target by gmail
 
@@ -127,8 +127,8 @@ Converting the ost with the steller converter we find `\[FLAG1\]`
 
 After running out of flags to find, it was time for horizontal privilege escalation
 
-## **LATERAL PRIVILEGE ESCALATION  
-Machine Misconfigured with an Unquoted Service Path**
+## LATERAL PRIVILEGE ESCALATION  
+**Machine Misconfigured with an Unquoted Service Path**
 
 Sometimes it is possible to escalate privileges by abusing mis-configured services. Specifically, this is possible if path to the service binary is not wrapped in quotes and there are spaces in the path..  
 If you are using a long file name that contains a space, use quoted strings to indicate where the file name ends and the arguments begin; otherwise, the file name is ambiguous.
