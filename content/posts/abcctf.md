@@ -16,7 +16,7 @@ My team RedTeamNG recently came first in the The American Business Council Cyber
 This write up would be focused only on the finals and specifically the RedTeam challenges running through the methodology used to tackling it,  
 other post by my team mate [Muzec](https://muzec0318.github.io/posts/abcctf.html) would be covering the Web Challenges.
 
-## SCENARIO
+### SCENARIO
 
 The scenario we are presented with by the organizers is that of an Fat Fingered individual that unconsciously opens every email and attachment he gets in he’s corporate email : [obiora\_nurudeen@ctf.ng](http://mailto:obiora_nurudeen@ctf.ng)
 
