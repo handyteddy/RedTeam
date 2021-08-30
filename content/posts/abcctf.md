@@ -58,7 +58,7 @@ then pass the raw shellcode to the scarecrow binary along with a random domain n
 
 we then created a meterpreter listener using the connection variable of the shellcode as options: “would have preferred Cobalt-strike but its for the BigBoys like InfosecShinobi 🙂”
 
-## DELIVERY
+### DELIVERY
 
 The output of ScareCrow is an obfuscated .exe payload, being at the third stage of the “cyber attack cycle” which is delivery  
 we somehow need to get the payload the victim machine and “run” it
@@ -84,7 +84,7 @@ the function of the macro was to run a powershell one-liner that downloads the p
 
 {{< figure src="/images/abcctf/macro.png">}}
 
-## WEAPONIZATION
+### WEAPONIZATION
 
 Weaponized the final email and sent the .docm to the target by gmail
 
@@ -127,7 +127,7 @@ Converting the ost with the steller converter we find `\[FLAG1\]`
 
 After running out of flags to find, it was time for horizontal privilege escalation
 
-## LATERAL PRIVILEGE ESCALATION  
+### LATERAL PRIVILEGE ESCALATION  
 **Machine Misconfigured with an Unquoted Service Path**
 
 Sometimes it is possible to escalate privileges by abusing mis-configured services. Specifically, this is possible if path to the service binary is not wrapped in quotes and there are spaces in the path..  
